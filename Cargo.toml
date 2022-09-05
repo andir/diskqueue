@@ -1,0 +1,18 @@
+[package]
+name = "diskqueue"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Unordered persistent on-disk queue that can be consumed from multiple processes."
+repository = "https://github.com/andir/diskqueue"
+
+[dependencies]
+serde = { version = "1", features = [ "derive" ] }
+serde_json = "1"
+rand = "0.8"
+thiserror = "1"
+fs4 = "0.6" 
+
+[dev-dependencies]
+tempfile = "3"
+clap = { version = "3", features = [ "derive" ] }

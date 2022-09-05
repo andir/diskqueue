@@ -1,0 +1,23 @@
+{
+  "pins": {
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-22.11pre403192.0e304ff0d9d/nixexprs.tar.xz",
+      "hash": "09ajimzq39h9iqmx698h9y9k36ljqhkjsamgh56f9lryj8pak19q"
+    },
+    "npins": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "andir",
+        "repo": "npins"
+      },
+      "branch": "master",
+      "revision": "e6344c501ef00913e9c8bac4dc960d85711e881c",
+      "url": "https://github.com/andir/npins/archive/e6344c501ef00913e9c8bac4dc960d85711e881c.tar.gz",
+      "hash": "1h3454ayl7y6y8wmj9ngjimmrx9wvwl64318jpqazlmgf4dbpjk7"
+    }
+  },
+  "version": 2
+}
